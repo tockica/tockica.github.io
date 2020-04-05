@@ -7,6 +7,7 @@ body {
 	background-color: #242021;
 	color: white;
 	font-family: "Open Sans", sans-serif;
+	height: auto;
 }
 
 .header_img {
@@ -23,20 +24,8 @@ h1 {
 }
 
 .container {
--ms-box-orient: horizontal;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -moz-flex;
-  display: -webkit-flex;
-  display: flex;
-
-  -webkit-justify-content: center; 
-  justify-content: center; 
-
-   width: 100%;
-   padding: 0;
-
+	display: flex; 
+	justify-content: center; 
 	flex-wrap: wrap-reverse;
 	align-items: center;
 }
