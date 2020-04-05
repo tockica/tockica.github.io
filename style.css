@@ -9,8 +9,9 @@ body {
 	font-family: "Open Sans", sans-serif;
 }
 
-.header {
+.header_img {
 	width: 100%;
+	min-height: 80px;
 }
 
 h1 {
@@ -26,12 +27,12 @@ h1 {
 	flex-wrap: wrap-reverse;
 	justify-content: center;
 	align-items: center;
-	margin-bottom: 1em;
 }
 
 .content {
 	margin-left: 2em;
 	margin-right: 2em;
+	margin-bottom: 1em;
 }
 
 p {
